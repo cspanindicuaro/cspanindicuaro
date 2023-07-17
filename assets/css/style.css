@@ -94,8 +94,16 @@ body {
 }
 
 .Nav-btn {
+    border-color: var(--color-primary);
     border: none;
     width: 4rem;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none !important; /* Para eliminar el contorno predeterminado del botón */
+    border-color: var(--color-primary) !important;
+    box-shadow: none !important;
 }
 
 .Nav-toggler {
