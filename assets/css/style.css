@@ -47,7 +47,12 @@ body {
     .Nav-logo {
         width: 200px !important;
         height: auto !important;
-        margin-left: -20px !important;
+        margin-left: -30px !important;
+    }
+
+    .Nav-btn {
+        margin-right: -20px !important;
+        width: 3.5rem !important;
     }
 }
 
