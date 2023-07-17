@@ -136,7 +136,7 @@ body {
 .table-th {
     color: var(--color-primary) !important;
     width: 100px;
-    transition: 1s;
+    text-align: center !important;
 }
 
 /* footer */
