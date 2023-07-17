@@ -99,9 +99,9 @@ body {
 /* Hero */
 
 .Cover {
-    height: 720px;
-    min-height: 600px;
     width: 100%;
+    min-height: 500px;
+    max-height: 720px;
 }
 
 .Cover-img {
