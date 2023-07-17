@@ -43,6 +43,12 @@ body {
     .hidde-mobile {
         display: none;
     }
+
+    .Nav-logo {
+        width: 200px !important;
+        height: auto !important;
+        margin-left: -20px !important;
+    }
 }
 
 .hyphens-none {
