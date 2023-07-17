@@ -144,3 +144,9 @@ body {
 footer {
     background-color: #fafaff;
 }
+
+.Footer-logo {
+    margin-left: -20px;
+    height: 5rem;
+    width: auto;
+}
