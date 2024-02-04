@@ -1,5 +1,5 @@
 :root {
-    font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /* palette 🎨 */
@@ -11,81 +11,81 @@ Vino claro #C03758
 Rojo claro #C83939 */
 
 :root {
-    --color-primary: #812a2e;
-    --color-secondary: #ec3434;
-    --color-white: #ffffff;
-    --color-black: #272727;
-    --color-gray: #636667;
-    --color-yellow: #ffcc00;
-    --color-red: #dd3030;
-    --color-blue: #18a1db;
-    --color-shadow: rgba(0, 0, 0, 0.5);
+  --color-primary: #812a2e;
+  --color-secondary: #ec3434;
+  --color-white: #ffffff;
+  --color-black: #272727;
+  --color-gray: #636667;
+  --color-yellow: #ffcc00;
+  --color-red: #dd3030;
+  --color-blue: #18a1db;
+  --color-shadow: rgba(0, 0, 0, 0.5);
 }
 
 /* Smooth scroll behavior */
 :root {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* reset */
 
 body {
-    font-family: var(--font-default);
-    color: var(--color-primary);
-    overflow-x: hidden;
-    background: var(--color-white);
+  font-family: var(--font-default);
+  color: var(--color-primary);
+  overflow-x: hidden;
+  background: var(--color-white);
 }
 
 /* ⚡ Preset */
 
 /* El div se ocultará cuando el ancho de la pantalla sea menor o igual a 600px */
 @media screen and (max-width: 650px) {
-    .hidde-mobile {
-        display: none;
-    }
+  .hidde-mobile {
+    display: none;
+  }
 
-    .Nav-logo {
-        width: 200px !important;
-        height: auto !important;
-        margin-left: -30px !important;
-    }
+  .Nav-logo {
+    width: 200px !important;
+    height: auto !important;
+    margin-left: -30px !important;
+  }
 
-    .Nav-btn {
-        margin-right: -20px !important;
-        width: 3.5rem !important;
-    }
+  .Nav-btn {
+    margin-right: -20px !important;
+    width: 3.5rem !important;
+  }
 }
 
 .hyphens-none {
-    hyphens: none;
+  hyphens: none;
 }
 
 .hyphens-manual {
-    hyphens: manual;
+  hyphens: manual;
 }
 
 .btn {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    border: none;
-    transition: 1s;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  transition: 1s;
 }
 
 .btn:hover {
-    transform: translateY(-5px);
-    transition: 0.7s;
-    box-shadow: 0px 5px 5px 2px var(--color-shadow);
+  transform: translateY(-5px);
+  transition: 0.7s;
+  box-shadow: 0px 5px 5px 2px var(--color-shadow);
 }
 
 .filter-primary {
-    filter: invert(22%) sepia(58%) saturate(1130%) hue-rotate(317deg)
-        brightness(90%) contrast(97%);
+  filter: invert(22%) sepia(58%) saturate(1130%) hue-rotate(317deg)
+    brightness(90%) contrast(97%);
 }
 
 /* Header */
 
 .Header {
-    background-color: var(--color-white);
+  background-color: var(--color-white);
 }
 
 /* Nav */
@@ -94,33 +94,33 @@ body {
 }
 
 .Nav-btn {
-    border-color: var(--color-primary);
-    border: none;
-    width: 4rem;
+  border-color: var(--color-primary);
+  border: none;
+  width: 4rem;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
-    outline: none !important; /* Para eliminar el contorno predeterminado del botón */
-    border-color: var(--color-primary) !important;
-    box-shadow: none !important;
+  outline: none !important; /* Para eliminar el contorno predeterminado del botón */
+  border-color: var(--color-primary) !important;
+  box-shadow: none !important;
 }
 
 .Nav-toggler {
 }
 
 .Nav-logo {
-    margin-left: -20px;
-    height: 5rem;
-    width: auto;
+  margin-left: -20px;
+  height: 5rem;
+  width: auto;
 }
 
 /* Hero */
 
 .Cover {
-    width: 100%;
-    min-height: 500px;
-    max-height: 720px;
+  width: 100%;
+  min-height: 500px;
+  max-height: 720px;
 }
 
 .Cover-img {
@@ -129,32 +129,37 @@ body {
 /* Info */
 
 .Info-icon {
-    width: 5rem;
+  width: 5rem;
 }
 
 /* time */
 
 .table {
-    max-width: 700px;
-    width: 50%;
-    margin: auto;
+  max-width: 700px;
+  width: 50%;
+  margin: auto;
 }
 
 .table-td,
 .table-th {
-    color: var(--color-primary) !important;
-    width: 100px;
-    text-align: center !important;
+  color: var(--color-primary) !important;
+  width: 100px;
+  text-align: center !important;
 }
 
 /* footer */
 
 footer {
-    background-color: #fafaff;
+  background-color: #fafaff;
 }
 
 .Footer-logo {
-    margin-left: -20px;
-    height: 5rem;
-    width: auto;
+  margin-left: -20px;
+  height: 5rem;
+  width: auto;
+}
+
+.carousel-img {
+  object-fit: scale-down;
+  height: 80vh;
 }
